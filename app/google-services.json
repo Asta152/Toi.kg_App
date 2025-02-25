@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "448943590983",
+    "project_id": "toimobile",
+    "storage_bucket": "toimobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448943590983:android:aef5b14479a610a74bab62",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdKGnza8jEvRaJ54x-4STs2yg0CHQFhmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
