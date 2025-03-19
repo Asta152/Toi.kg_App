@@ -40,20 +40,24 @@ android {
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
 
+    // Firebase
+    implementation(platform("com.google.firebase:firebase-bom:33.9.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.database)
+
+    // Добавляем RecyclerView и Glide
+    implementation(libs.recyclerview)
+    implementation(libs.glide)
+    annotationProcessor(libs.glide.compiler)
+
+    // Тестирование
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-
-
-    implementation(platform("com.google.firebase:firebase-bom:33.9.0"))
-    implementation("com.google.firebase:firebase-analytics")
-
-    implementation(libs.firebase.auth)
-    implementation(libs.firebase.database)
 }

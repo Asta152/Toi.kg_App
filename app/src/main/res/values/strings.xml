@@ -14,4 +14,14 @@
     <string name="verification">Подтверждение</string>
     <string name="verificate">Подтверить</string>
     <string name="verification_code">код подтверждения</string>
+    <string name="first_button">Частные мероприятия</string>
+    <string name="three_lines">Три Линии</string>
+    <string name="best">Лучшие Заведения</string>
+    <string name="Chast">Частные Мероприятия</string>
+    <string name="Bussiness">Бизнес и Корпоративы</string>
+    <string name="Enjoy">Развлечения</string>
+    <string name="Active">Активный Отдых</string>
+    <string name="Kafe">Кафе и Рестораны</string>
+    <string name="culture">Культурные События</string>
+    <string name="search">Найти</string>
 </resources>

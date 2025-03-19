@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColorHint">@android:color/black</item> <!-- Цвет подсказки -->
+        <item name="android:iconifiedByDefault">false</item>  <!-- Отключаем иконку по умолчанию -->
+    </style>
+</resources>

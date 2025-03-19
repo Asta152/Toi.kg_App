@@ -79,6 +79,7 @@
         android:layout_width="195dp"
         android:layout_height="48dp"
         android:layout_marginTop="460dp"
+        android:onClick="startMainMenuActivity"
         android:background="@drawable/login_btn"
         android:text="@string/registration"
         android:textColor="@color/black"
