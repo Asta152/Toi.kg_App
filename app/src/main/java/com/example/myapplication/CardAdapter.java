@@ -8,12 +8,13 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardViewHolder> {
-    private ArrayList<CardItem> cardList;
+    private List<CardItem> cardList;
 
-    public CardAdapter(ArrayList<CardItem> cardList) {
+    public CardAdapter(List<CardItem> cardList) {
         this.cardList = cardList;
     }
 

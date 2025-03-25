@@ -36,6 +36,7 @@ public class EnjoyActivity extends Chast_Activity {
 
     @Override
     protected void fillCardList() {
+        cardList.clear();
         cardList.add(new CardItem(R.drawable.gunfun, "Gun Fun", "Страйкболл", 4.2f, 20, "1500сом на каждого", R.drawable.ihub_logo));
         cardList.add(new CardItem(R.drawable.ololo, "ololo Creative Hubs", "Бизнес-встречи", 4.7f, 50, "12 000сом", R.drawable.ololo_logo));
         cardList.add(new CardItem(R.drawable.sabi, "Coworking Space Sabi", "Презентации/Конференции", 5.0f, 200, "3 000 сом", R.drawable.sabi_logo));
